@@ -1,16 +1,15 @@
-\# Diseño de Arquitectura - SaaS Core
+# Diseño de Arquitectura - SaaS Core
 
-
-
-\## 1. Diagrama de Contexto (Mermaid)
-
+## 1. Diagrama de Contexto (Mermaid)
 ```mermaid
-
 graph LR
+  User((Usuario)) --> System[SaaS Core]
+  System --> Stripe[Gateway de Pagos]
+  System --> AWS[S3 Storage]
 
-&nbsp; User((Usuario)) --> System\[SaaS Core]
+## 2. Decisiones Tecnológicas
 
-&nbsp; System --> Stripe\[Gateway de Pagos]
-
-&nbsp; System --> AWS\[S3 Storage]
-
+###Frontend: 
+	React con Vite por su rapidez en desarrollo.
+###Backend: 
+	Node.js con arquitectura limpia (Clean Architecture).
