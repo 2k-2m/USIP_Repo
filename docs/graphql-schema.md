@@ -1,4 +1,3 @@
-### 2. Archivo: `graphql-schema.md`
 
 ```graphql
 # Esquema GraphQL - Pagos y Suscripciones
