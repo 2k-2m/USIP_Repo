@@ -13,3 +13,5 @@ graph LR
 	React con Vite por su rapidez en desarrollo.
 ###Backend: 
 	Node.js con arquitectura limpia (Clean Architecture).
+###Infraestructura:
+	Despliegue en contenedores para asegurar consistencia entre entornos de desarrollo y producción.
