@@ -1,4 +1,4 @@
-
+```graphql
 # Esquema GraphQL - Pagos y Suscripciones
 
 type Subscription {
