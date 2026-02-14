@@ -8,11 +8,11 @@
 
 ```json
 
-{ "email": "user@example.com", "password": "secure\_password" }
+{ "email": "user@example.com", "password": "secure_password" }
 ```
 
 **Response (200 OK):**
 
 ```json
-{ "email": "user@example.com", "password": "secure\_password" }
+{ "email": "user@example.com", "password": "secure_password" }
 ```
