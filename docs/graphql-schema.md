@@ -1,30 +1,22 @@
-\# Esquema GraphQL - Pagos y Suscripciones
-
-
+### 2. `graphql-schema.md`
+**El problema:** Tenías muchos caracteres extraños (`&nbsp;`) que rompen la validación de GraphQL. Aquí tienes el esquema limpio:
 
 ```graphql
+# Esquema GraphQL - Pagos y Suscripciones
 
 type Subscription {
-
-&nbsp; id: ID!
-
-&nbsp; planName: String!
-
-&nbsp; status: Status!
-
-&nbsp; nextBillingDate: String
-
+  id: ID!
+  planName: String!
+  status: Status!
+  nextBillingDate: String
 }
 
-
-
-enum Status { ACTIVE, CANCELLED, PENDING }
-
-
+enum Status { 
+  ACTIVE 
+  CANCELLED 
+  PENDING 
+}
 
 type Query {
-
-&nbsp; getUserSubscriptions(userId: ID!): \[Subscription]
-
+  getUserSubscriptions(userId: ID!): [Subscription]
 }
-
