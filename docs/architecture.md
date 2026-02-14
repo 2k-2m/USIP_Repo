@@ -7,8 +7,8 @@ graph LR
   System --> Stripe[Gateway de Pagos]
   System --> AWS[S3 Storage]
 ```
-## 2. Decisiones Tecnológicas
 
+## 2. Decisiones Tecnológicas
 ###Frontend: 
 	React con Vite por su rapidez en desarrollo.
 ###Backend: 
